@@ -36,7 +36,7 @@ img {
 /* header */
 
 .container {
-  /* outline: 1px solid tomato; */
+  outline: 1px solid tomato;
 
   width: 1200px;
 
@@ -340,6 +340,13 @@ img {
 
 /* button */
 
+.list-button {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 94px;
+}
+
 .btn {
   background-color: var(--background-team-color);
   cursor: pointer;
@@ -350,6 +357,16 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.btn {
+  border-radius: 4px;
+
+  margin-bottom: 50px;
+}
+
+.list-button li:not(:last-child) {
+  margin-right: 8px;
 }
 
 .btn:hover,
@@ -364,6 +381,20 @@ img {
 
 /* text */
 
+.list-card {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.card {
+  margin-right: 30px;
+}
+
+.card:nth-child(3n) {
+  margin-right: 0;
+}
+
 .text-list {
   color: var(--color-text);
   line-height: 1.9;
@@ -376,3 +407,4 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
