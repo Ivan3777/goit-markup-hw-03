@@ -13,6 +13,7 @@
   --footer-contacts: #ffffff99;
   --border-color: #ececec;
   --button-hover: #188ce8;
+  --border-card: #eeeeee;
 }
 
 body {
@@ -431,6 +432,10 @@ img {
 
 .text-card {
   padding: 20px 24px;
+
+  border-right: 1px solid var(--border-card);
+  border-bottom: 1px solid var(--border-card);
+  border-left: 1px solid var(--border-card);
 }
 
 .text-list {
